@@ -1,0 +1,12 @@
+<%= @blog_post.title %>
+<h1></h1>
+
+<%= @blog_post.author %>
+<h1></h1>
+
+<%= @blog_post.content %>
+<h1></h1>
+
+<%= link_to "Edit", edit_blog_post_path(@blog_post) %>
+
+<%= link_to "Delete", blog_post_path(@blog_post), method: :delete %>
